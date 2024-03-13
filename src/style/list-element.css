@@ -1,0 +1,43 @@
+.list-element-container {
+    display: flex;
+    margin: 2em 0;
+}
+
+.list-element {
+    display: flex;
+    flex-direction: column;
+    color: #FEFFF7;
+    gap: 1em;
+    width: 100%;
+}
+
+.list-element-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-element-headline {
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.list-element-time {
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.list-element-text {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-element-header {
+        flex-direction: column;
+    }
+}

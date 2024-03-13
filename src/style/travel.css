@@ -1,0 +1,75 @@
+.travel {
+    background-color: #66765E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 4% 5%;
+    gap: 20px;
+}
+
+.single-card-container {
+    border: 3px solid #E0EAD0;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.page-content {
+    min-height: 50vh;
+}
+
+
+.card {
+    display: flex;
+    background-color: #E0EAD0;
+    align-items: center;
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    color: #090e12;
+    text-align: center;
+}
+
+.inner-card {
+    padding: 10px;
+}
+
+.card-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-icon-container {
+    align-items: center;
+}
+
+.card-icon-container img {
+    padding: 10px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-button {
+    min-width: 100px;
+    max-width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .subheading {
+        max-width: 350px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        padding: 4% 4% 0%;
+        gap: 20px;
+    }
+}

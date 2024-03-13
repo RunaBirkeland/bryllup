@@ -1,0 +1,65 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    background-image: url("../images/background_gold.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    color: #FEFFF7;
+}
+
+.main-info-container-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #192322;
+    margin: 30px;
+    padding: 60px;
+    text-align: center;
+}
+
+.main-info-container h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.main-info-container p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.main-info-container h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.rsvp-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 30px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-info-container {
+        padding: 30px;
+    }
+
+    .rsvp-button-container {
+        max-width: 150px;
+     }
+}

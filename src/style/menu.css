@@ -1,0 +1,67 @@
+/* Styles for desktop */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #192322;
+    padding: 15px;
+}
+
+.navbar-elements {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.nav-element {
+    padding: 10px 20px;
+    color: #FEFFF7;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+    height: 2vh;
+}
+
+.nav-element:hover {
+    border-bottom: 2px solid #FEFFF7;
+}
+
+.burger-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-elements {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #192322;
+    }
+
+    .burger-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: right;
+    }
+
+    .navbar-elements.open {
+        display: flex;
+    }
+
+    .nav-element {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .burger-icon {
+        display: flex;
+        color: #FEFFF7;
+        cursor: pointer;
+        height: 6vh;
+    }
+}

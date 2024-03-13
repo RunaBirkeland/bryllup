@@ -1,0 +1,223 @@
+@font-face {
+    font-family: CormorantSC;
+    src: url('../fonts/CormorantSC-Regular.eot');
+    src: url('../fonts/CormorantSC-Regular.svg') format('svg'),
+        url('../fonts/CormorantSC-Regular.ttf') format('ttf'),
+        url('../fonts/CormorantSC-Regular.woff') format('woff'),
+        url('../fonts/CormorantSC-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: CormorantSC;
+    src: url('../fonts/CormorantSC-Bold.eot');
+    src: url('../fonts/CormorantSC-Bold.svg') format('svg'),
+        url('../fonts/CormorantSC-Bold.ttf') format('ttf'),
+        url('../fonts/CormorantSC-Bold.woff') format('woff'),
+        url('../fonts/CormorantSC-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: CormorantSC;
+    src: url('../fonts/CormorantSC-Light.eot');
+    src: url('../fonts/CormorantSC-Light.svg') format('svg'),
+        url('../fonts/CormorantSC-Light.ttf') format('ttf'),
+        url('../fonts/CormorantSC-Light.woff') format('woff'),
+        url('../fonts/CormorantSC-Light.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+}
+
+.app {
+    background-color: #090e12;
+}
+
+.header {
+    color: #FEFFF7;
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.centered-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subheading {
+    color: #FEFFF7;
+}
+
+.button {
+    background-color: #FEFFF7;
+    color: #090e12;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #66765E;
+    color: #090e12;
+}
+
+.button-small {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button-large {
+    padding: 0.5em;
+    font-size: 30px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 100;
+    color: #FEFFF7;
+}
+
+.left-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.ReactModal_Overlay {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    height: 70vh;
+    width: 60vw;
+}
+
+.ReactModal_Content {
+    width: fit-content;
+    height: fit-content;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    background-color: #01172c;
+}
+
+.form-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    overflow: hidden;
+    margin: 2em 4em;
+    padding-bottom: 10em;
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    color: #FEFFF7;
+}
+
+.side-image-container {
+    flex: 0 0 40%;
+    display: flex;
+    background-image: url("../images/background_image_purple.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.side-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.label {
+    margin-bottom: 1em;
+}
+
+.label-radio {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.label input {
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.half-height-page-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+}
+
+.info-container {
+    width: 25%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 10px 50px 50px 50px;
+}
+
+.centered-flex {
+    justify-content: center;
+}
+
+.padding-panel {
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .padding-panel {
+        width: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .info-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .info-container h2 {
+        font-size: 30px;
+    }
+}
