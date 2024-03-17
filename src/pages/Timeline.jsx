@@ -33,11 +33,6 @@ const Timeline = () => {
                         time='Klokken 23:00'
                         text='På dette tidspunktet begynner vi sikkert å bli sultne igjen og litt varm nattmat vil derfor serveres.'
                     />
-                    <ListElement
-                        header='Båltenning'
-                        time='Klokken 01:00'
-                        text='Vi beveger oss ut i hagen igjen, tenner bål og serverer gløgg.'
-                    />
                 </div>
                 <div className='padding-panel'></div>
             </div>

@@ -1,48 +1,33 @@
 import React from 'react';
-import InfoCard from '../components/InfoCard';
-import carIcon from '../images/car.png';
-import subwayIcon from '../images/subway.png';
-import taxiIcon from '../images/taxi.png';
 
 const Travel = () => {
 
     return (
         <div id='travel' className='travel'>
-            <div className='page-content'>
-                <div className='centered-headline'>
-                    <h2 className='header'>
-                        Reise
+            <div className='page-container'>
+                <div className='padding-panel'></div>
+                <div className="info-container">
+                    <h2 className='header'>Lokasjon</h2>
+                    <div className='text'>
+                        Solstua ligger på toppen av Holmenkollen med Kongsseteren som nærmeste nabo. <br/> Her holdes både vielse og fest.
+                    </div>
+                    <h2 className='subheader'>
+                        Offentlig transport
                     </h2>
-                    <span className='subheading'>Har du først kommet deg til Oslo er det enkelt å komme seg til Solstua på en av de følgende måtene:</span>
+                    <div className='text'>
+                       Voksenkollen T-banestasjon ligger 14 minutter gange unna.
+                    </div>
+                    <h2 className='subheader'>
+                        Parkering
+                    </h2>
+                    <div className='text'>
+                        På solstua finnes det ~X parkeringsplasser, i tillegg til dette har Voksenkollen Hotell X plasser.
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1941.9111742781122!2d10.663631700000002!3d59.973566399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464172842487cd97%3A0x29926059f9add4a6!2sSolstua!5e1!3m2!1sen!2sno!4v1710704115703!5m2!1sen!2sno" width="600" height="300" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="map-iframe"></iframe>
                 </div>
-                <div className='cards-container'>
-                    <div className='single-card-container'>
-                        <InfoCard
-                            picture={carIcon}
-                            header='Bil'
-                            text='Den enkleste måten å komme seg til Solstua med bil på er å kjøre til voksenkollen t-banestasjon og følge skiltingen derfra.'
-                            link='https://www.google.com'
-                        />
-                    </div>
-                    <div className='single-card-container'>
-                        <InfoCard
-                            picture={subwayIcon}
-                            header='Bil'
-                            text='Den enkleste måten å komme seg til Solstua med bil på er å kjøre til voksenkollen t-banestasjon og følge skiltingen derfra.'
-                            link='https://www.google.com'
-                        />
-                    </div>
-                    <div className='single-card-container'>
-                        <InfoCard
-                            picture={taxiIcon}
-                            header='Bil'
-                            text='Den enkleste måten å komme seg til Solstua med bil på er å kjøre til voksenkollen t-banestasjon og følge skiltingen derfra.'
-                            link='https://www.google.com'
-                        />
-                    </div>
-                </div>
+                <div className="side-panel-travel"></div>
             </div>
-        </div>
+        </div >
     )
 }
 
