@@ -14,7 +14,7 @@ const InfoCard = (props) => {
                     {props.text}
                 </div>
                 <div className='card-button-container'>
-                    <div class='info-button button button-small'>
+                    <div className='info-button button button-small'>
                         <a href={props.link}>
                             Mer info
                         </a>
