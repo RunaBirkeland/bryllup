@@ -6,6 +6,7 @@ import Travel from './pages/Travel';
 import Accommodation from './pages/Accomodation';
 import Gifts from './pages/Gifts';
 import FAQ from './pages/FAQ';
+import Attire from './pages/Attire';
 
 
 const App = () => {
@@ -49,6 +50,7 @@ const App = () => {
             <Timeline />
             <Travel />
             <Accommodation />
+            <Attire />
             <Gifts />
             <FAQ />
         </div>

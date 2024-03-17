@@ -10,6 +10,7 @@ import './style/list-element.css';
 import './style/accomodation.css';
 import './style/gifts.css';
 import './style/faq.css';
+import './style/attire.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />)
