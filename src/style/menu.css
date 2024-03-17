@@ -23,7 +23,6 @@
     border-bottom: 2px solid transparent;
     text-decoration: none;
     cursor: pointer;
-    height: 2vh;
 }
 
 .nav-element:hover {
@@ -44,9 +43,7 @@
     }
 
     .burger-wrapper {
-        display: flex;
-        justify-content: flex-end;
-        align-items: right;
+        padding-left: 90%;
     }
 
     .navbar-elements.open {

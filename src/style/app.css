@@ -49,6 +49,14 @@ body {
     font-size: 50px;
 }
 
+.subheader {
+    color: #FEFFF7;
+    font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 15px;
+}
+
 .centered-headline {
     display: flex;
     flex-direction: column;
@@ -131,9 +139,15 @@ body {
     max-width: 60%;
     overflow: hidden;
     margin: 2em 4em;
-    padding-bottom: 10em;
     font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
     color: #FEFFF7;
+    justify-content: center;
+
+    h2 {
+        padding: 0;
+        margin: 0;
+        padding-bottom: 10px;
+    }
 }
 
 .side-image-container {
@@ -152,6 +166,7 @@ body {
 
 .label {
     margin-bottom: 1em;
+    text-overflow: ellipsis;
 }
 
 .label-radio {
@@ -169,6 +184,10 @@ body {
 .label input {
     font-family: CormorantSC, Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
+}
+
+.submit {
+    margin-bottom: 10px;
 }
 
 .page-container {
@@ -209,6 +228,14 @@ a {
     .padding-panel {
         width: 0;
     }
+
+    .side-image-container {
+        display: none;
+    }
+
+    .ReactModal_Overlay {
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -219,5 +246,12 @@ a {
 
     .info-container h2 {
         font-size: 30px;
+    }
+
+    .form-content {
+        display: flex;
+        justify-content: center;
+        margin: 2em;
+        padding-bottom: 0;
     }
 }
