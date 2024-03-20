@@ -14,7 +14,10 @@ const Accommodation = () => {
                         har vi reservert rom på det sjarmerende Voksenåsen Hotell.
                         Hotellet ligger en ti minutters spasertur fra Solstua,
                         noe som gjør det enkelt å komme seg til og fra arrangementet. <br />
-                        Et enkeltrom kan reserveres for 1090,- kr, mens et dobbeltrom koster 1390,- kr. <br /> <br />
+                        Et enkeltrom kan reserveres for 1090,- kr, mens et dobbeltrom koster 1390,- kr. <br />
+                        Det er også mulig å oppgradere til Superior-rom for 1590,- så lenge det finnes ledige rom.<br />  <br />
+                        Rommene holdes av frem til seks uker før bryllupet. Det vil da fortsatt være mulig å bestille rom
+                        forutsatt at det fortsatt er ledige rom tilgjengelig.<br /> <br />
                         Videre byr Oslo på et mangfold av andre hoteller og overnattingsmuligheter,
                         og det er enkelt å reise til og fra Solstua fra Oslo sentrum.
                     </span>

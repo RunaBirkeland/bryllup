@@ -40,4 +40,16 @@
     .list-element-header {
         flex-direction: column;
     }
+
+    .list-element-headline {
+        font-size: 20px;
+    }
+
+    .list-element-time {
+        font-size: 18px;
+    }
+
+    .list-element-text {
+        font-size: 16px;
+    }
 }

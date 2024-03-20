@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;
     background-color: #192322;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .navbar-elements {
@@ -43,7 +43,7 @@
     }
 
     .burger-wrapper {
-        padding-left: 90%;
+        padding-left: 80%;
     }
 
     .navbar-elements.open {

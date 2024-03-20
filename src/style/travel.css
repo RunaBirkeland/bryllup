@@ -94,6 +94,6 @@
     }
 
     .side-panel-travel {
-        background-position: center;
+        display: none;
     }
 }

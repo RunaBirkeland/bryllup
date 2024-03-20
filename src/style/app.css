@@ -90,7 +90,7 @@ body {
 }
 
 .button-large {
-    padding: 0.5em;
+    padding: 10px 20px;
     font-size: 30px;
 }
 
@@ -98,6 +98,7 @@ body {
     font-size: 18px;
     font-weight: 100;
     color: #FEFFF7;
+    padding-bottom: 1em;
 }
 
 .left-image-container img {
@@ -224,6 +225,18 @@ a {
     color: black;
 }
 
+.italic-text {
+    font-style: italic;
+}
+
+.colour-palette {
+    height: 4em;
+    background-image: url("../images/palette.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2em 0;
+}
+
 @media only screen and (max-width: 800px) {
     .padding-panel {
         width: 0;
@@ -253,5 +266,17 @@ a {
         justify-content: center;
         margin: 2em;
         padding-bottom: 0;
+    }
+
+    .button-small {
+        font-size: 16px;
+    }
+    
+    .button-large {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 16px;
     }
 }
