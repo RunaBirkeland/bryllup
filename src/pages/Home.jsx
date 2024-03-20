@@ -19,7 +19,6 @@ const Home = () => {
             <div className='hero-section'>
                 <div className='main-info-container-frame'>
                     <div className='main-info-container'>
-                        <p>Det var en gang et bryllup...</p>
                         <h1>David & Runa</h1>
                         <h2>Solstua, Thorleif Haugs vei 14, Oslo</h2>
                         <h2>12. oktober 2024, klokken 15:00</h2>

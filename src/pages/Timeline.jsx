@@ -8,6 +8,7 @@ const Timeline = () => {
                 <div className='left-image-container'></div>
                 <div className="info-container">
                     <h2 className="header">Bryllupsdagen</h2>
+                    <span className="footnote">*Denne planen vil oppdateres fortløpende i tiden frem mot bryllupet.</span>
                     <ListElement
                         header='Vielse'
                         time='Klokken 15:00'
