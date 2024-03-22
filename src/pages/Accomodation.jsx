@@ -24,12 +24,12 @@ const Accommodation = () => {
                     <div className='accomodation-button-container '>
                         <button className='button button-small'>
                             <a href="https://voksenaasen.no/hotell-og-restaurant/">
-                                Mer info om Voksenåsen Hotell
+                                Voksenåsen Hotell
                             </a>
                         </button>
                     </div>
                 </div>
-                <div className='padding-panel'></div>
+                <div className="side-panel-accommodation"></div>
             </div>
         </div>
     )

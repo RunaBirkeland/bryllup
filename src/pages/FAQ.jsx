@@ -44,7 +44,7 @@ const FAQ = () => {
                         time=''
                         text='Selvsagt! Vi føler i utgangspunktet ikke at gaver er en nødvendighet, men synes det er hyggelig 
                         med alt du har lyst til å gi oss. Enten dette er noe fra listen, noe du har funnet som fikk deg til å tenke 
-                        på oss eller noe du har laget spesielt til oss.'
+                        på oss eller noe du har laget selv.'
                     />
                     <ListElement
                         header='De tingene som er igjen på ønskelisten er i dyreste laget, hva gjør jeg?'

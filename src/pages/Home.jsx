@@ -31,9 +31,9 @@ const Home = () => {
                 </div>
             </div>
             <Modal isOpen={modalOpen}
-                onRequestClose={closeModal}
-                className={'ReactModal_Overlay ReactModalContent'}>
-                <Form />
+                    onRequestClose={closeModal}
+                    className={'ReactModal_Overlay ReactModalContent'}>
+                <Form closeModal={closeModal}/>
             </Modal>
         </div>
     )
