@@ -5,8 +5,8 @@
 .side-panel-accommodation {
     flex: 0 0 25%;
     display: flex;
-    background-image: url("../images/soltua.jpeg");
-    background-position: top center;
+    background-image: url("../images/voksenaasenTwo.jpeg");
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -26,6 +26,7 @@
     border: 1px solid #FEFFF7;
     padding: 2%;
     margin-top: 5px;
+    max-width: 600px;
   }
 
 /* OLD STUFF */
@@ -99,6 +100,6 @@
     }
 
     .side-panel-accommodation {
-        background-position: top center;
+        background-position: center;
     }
 }
