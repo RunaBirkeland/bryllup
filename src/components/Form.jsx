@@ -41,71 +41,73 @@ const Form = ({ closeModal }) => {
     }
 
     return (
-        <form className="form" onSubmit={handleSubmit}>
+        <div className="form-wrapper">
             <div className='side-image-container'></div>
-            <div className='form-content'>
-                <button className='exit-modal' onClick={closeModal}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FEFFF7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                </button>
-                <h2>{heading}</h2>
-                {!hideForm &&
-                    <label className='label label-input'>Skriv inn navnet ditt eller deres:
-                        <input
-                            type='text'
-                            className='input'
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
-                            required
-                        />
-                    </label>
-                }
-                {!hideForm &&
-                    <label className='label label-radio'>
-                        <input
-                            type='radio'
-                            checked={attending}
-                            onChange={(e) => setAttending(true)}
-                        />
-                        Jeg/Vi kommer!
-                    </label>
-                }
-                {!hideForm &&
-                    <label className='label label-radio'>
-                        <input
-                            type='radio'
-                            className='input'
-                            checked={!attending}
-                            onChange={(e) => setAttending(false)}
-                        />
-                        Jeg/Vi kan dessverre ikke
-                    </label>
-                }
-                {!hideForm &&
-                    <label className='label label-input'>Eventuelle kostholdsbehov:
-                        <input
-                            type='text'
-                            className='input input-large'
-                            value={dietary}
-                            onChange={(e) => setDietary(e.target.value)}
-                        />
-                    </label>
-                }
-                {!hideForm &&
-                    <label className='label label-input'>Andre kommentarer:
-                        <input
-                            type='text'
-                            className='input input-large'
-                            value={comments}
-                            onChange={(e) => setComments(e.target.value)}
-                        />
-                    </label>
-                }
-                {!hideForm &&
-                    <input className='button button-small' type='submit' value="Send" />
-                }
-                <span style={{ color: 'white' }}>{result}</span>
-            </div>
-        </form>
+            <form className="form" onSubmit={handleSubmit}>
+                <div className='form-content'>
+                    <h2>{heading}</h2>
+                    {!hideForm &&
+                        <label className='label label-input'>Skriv inn navnet ditt eller deres:
+                            <input
+                                type='text'
+                                className='input'
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                required
+                            />
+                        </label>
+                    }
+                    {!hideForm &&
+                        <label className='label label-radio'>
+                            <input
+                                type='radio'
+                                checked={attending}
+                                onChange={(e) => setAttending(true)}
+                            />
+                            Jeg/Vi kommer!
+                        </label>
+                    }
+                    {!hideForm &&
+                        <label className='label label-radio'>
+                            <input
+                                type='radio'
+                                className='input'
+                                checked={!attending}
+                                onChange={(e) => setAttending(false)}
+                            />
+                            Jeg/Vi kan dessverre ikke
+                        </label>
+                    }
+                    {!hideForm &&
+                        <label className='label label-input'>Eventuelle kostholdsbehov:
+                            <input
+                                type='text'
+                                className='input input-large'
+                                value={dietary}
+                                onChange={(e) => setDietary(e.target.value)}
+                            />
+                        </label>
+                    }
+                    {!hideForm &&
+                        <label className='label label-input'>Andre kommentarer:
+                            <input
+                                type='text'
+                                className='input input-large'
+                                value={comments}
+                                onChange={(e) => setComments(e.target.value)}
+                            />
+                        </label>
+                    }
+                    {!hideForm &&
+                        <input className='button button-small' type='submit' value="Send" />
+                    }
+                    <span style={{ color: 'white' }}>{result}</span>
+                </div>
+            </form>
+            <button className='exit-modal' onClick={closeModal}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FEFFF7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
     )
 }
 
