@@ -47,7 +47,7 @@ const Form = ({ closeModal }) => {
                 <div className='form-content'>
                     <h2>{heading}</h2>
                     {!hideForm &&
-                        <label className='label label-input'>Skriv inn navnet ditt eller deres:
+                        <label className='label label-input'>Skriv inn navnet ditt/deres:
                             <input
                                 type='text'
                                 className='input'
@@ -75,7 +75,7 @@ const Form = ({ closeModal }) => {
                                 checked={!attending}
                                 onChange={(e) => setAttending(false)}
                             />
-                            Jeg/Vi kan dessverre ikke
+                            Jeg/Vi kan dessverre ikke komme
                         </label>
                     }
                     {!hideForm &&
