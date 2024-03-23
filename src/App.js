@@ -40,7 +40,7 @@ const App = () => {
                 <ul className={isOpen ? 'navbar-elements open' : 'navbar-elements'}>
                     <li className='nav-element' onClick={() => handleNavClick('home')}>Hjem</li>
                     <li className='nav-element' onClick={() => handleNavClick('timeline')}>Bryllupsdagen</li>
-                    <li className='nav-element' onClick={() => handleNavClick('travel')}>Reise</li>
+                    <li className='nav-element' onClick={() => handleNavClick('travel')}>Lokalet</li>
                     <li className='nav-element' onClick={() => handleNavClick('accommodation')}>Overnatting</li>
                     <li className='nav-element' onClick={() => handleNavClick('gifts')}>Gaver</li>
                     <li className='nav-element' onClick={() => handleNavClick('faq')}>FAQ</li>

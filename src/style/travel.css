@@ -17,16 +17,11 @@
 }
 
 .map-iframe {
+    border: 1px solid #FEFFF7;
     width: 100%;
     max-width: 600px;
     height: 300px;
-  }
-
-  .map-container {
-    border: 1px solid #FEFFF7;
-    padding: 2%;
-    margin-top: 5px;
-    max-width: 600px;
+    margin-bottom: 1em;
   }
 
 /* OLD STUFF */
