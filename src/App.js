@@ -42,6 +42,7 @@ const App = () => {
                     <li className='nav-element' onClick={() => handleNavClick('timeline')}>Bryllupsdagen</li>
                     <li className='nav-element' onClick={() => handleNavClick('travel')}>Lokalet</li>
                     <li className='nav-element' onClick={() => handleNavClick('accommodation')}>Overnatting</li>
+                    <li className='nav-element' onClick={() => handleNavClick('attire')}>Antrekk</li>
                     <li className='nav-element' onClick={() => handleNavClick('gifts')}>Gaver</li>
                     <li className='nav-element' onClick={() => handleNavClick('faq')}>FAQ</li>
                 </ul>
