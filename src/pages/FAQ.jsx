@@ -37,6 +37,13 @@ const FAQ = () => {
                         epost på bryllup@runaogdavid.no dersom du ønsker å bidra på noen måte!'
                     />
                     <ListElement
+                        header='Har dere reservert rom på Voksenåsen Hotell?'
+                        time=''
+                        text='Da vi skrev invitasjonene holdt vi på å inngå en avtale med Voksenåsen Hotell for reservasjon av et visst antall 
+                        rom for de av gjestene som måtte trenge det, men vi valgte til slutt å ikke skrive under på denne da vi så at rommene 
+                        ville være billigere uten en slik avtale.'
+                    />
+                    <ListElement
                         header='Hva gjør jeg hvis de tingene som er igjen på ønskelisten er i dyreste laget?'
                         time=''
                         text='Det viktigste for oss er at du kommer, med eller uten gave. Hvis du likevel føler at du må ha med en gave kan du godt gi oss 
