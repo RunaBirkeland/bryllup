@@ -27,6 +27,10 @@ const Home = () => {
                                 RSVP
                             </button>
                         </div>
+                        <p>
+                            Meld ifra om du kommer ved å trykke 
+                            på RSVP-knappen innen 1. august
+                        </p>
                     </div>
                 </div>
             </div>
